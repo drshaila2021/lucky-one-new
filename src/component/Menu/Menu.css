@@ -1,20 +1,24 @@
-.foods-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 10px;
-    /* position:relative; */
-}
-.foods{
+.foods-orders-container {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+.foods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  border-radius: 5px;
 }
-.order-container{
-    
-    background-color: bisque;
+.orders {
+  background-color: lightgray;
+  border-radius: 5px;
 }
-@media screen and (max-width: 600px){
-    .foods{
-        grid-template-columns:1fr;
-    }
+@media screen and (max-width: 600px) {
+  .foods-orders-container {
+    grid-template-columns: 1ft 1fr;
+  }
+
+  .foods {
+    grid-template-columns: 1fr;
+  }
 }

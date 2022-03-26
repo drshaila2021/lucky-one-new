@@ -1,14 +1,16 @@
-.food{
-    border: 2px solid grey;
+.food {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin-left: 10px;
 }
-.food button{
-    background-color: rgb(247, 192, 174);
-    width: 100%;
-    border:none;
-    height: 30px;
-
+.food button {
+  background-color: gray;
+  width: 100%;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
 }
-.food img{
-    width: 276px;
-    height: 276px;
+.food img {
+  width: 250px;
+  height: 275px;
 }
