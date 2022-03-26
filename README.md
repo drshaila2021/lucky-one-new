@@ -1,16 +1,11 @@
-# Getting Started with Create React App - Food Village
+# React App Project- Food Village
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Repo Link
 
-In the project directory, you can run:
+Project repo link [https://github.com/Programming-Hero-Web-Course4/lucky-one-drshaila2021.git](https://github.com/Programming-Hero-Web-Course4/lucky-one-drshaila2021.git)
 
-### `npm start`
+## Site link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
