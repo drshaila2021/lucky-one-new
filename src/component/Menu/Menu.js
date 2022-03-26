@@ -23,7 +23,7 @@ setCart(addedFood)
 
  const handleChoose=()=>{
      const x =cart[Math.floor(Math.random()*cart.length)];
-    
+    setCart([x])
 
      console.log(x);
      
@@ -50,7 +50,8 @@ setCart(addedFood)
             <h3>Order Summary</h3>
            {
         cart.map(item=><Cart item={item}
-        key={item.id}
+        // key={item.id}
+        key={Math.random()}
         ></Cart>)
            }
 
