@@ -25,7 +25,9 @@ const Menu = () => {
 // one order selection 
  const handleChooseOne=()=>{
      const x =cart[Math.floor(Math.random()*cart.length)];
+     if(x){
      setCart([x])
+    }
  }
  //clear selection
  const handleRemove=()=>{
