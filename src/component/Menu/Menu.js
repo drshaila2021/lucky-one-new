@@ -21,6 +21,17 @@ const addedFood=[...cart,food];
 setCart(addedFood)
  }
 
+ const handleChoose=()=>{
+     const x =cart[Math.floor(Math.random()*cart.length)];
+    
+
+     console.log(x);
+     
+ }
+ const handleRemove=()=>{
+    setCart([])   
+ }
+
     return (
         <div className='foods-container'>
            
@@ -42,10 +53,10 @@ setCart(addedFood)
         key={item.id}
         ></Cart>)
            }
-           
-            <button>CHOOSE ONE</button>
 
-            <button>REMOVE</button>
+            <button onClick={handleChoose}>CHOOSE BEST ONE</button>
+
+            <button  onClick={handleRemove}>REMOVE ALL</button>
             </div>
 
         </div>
