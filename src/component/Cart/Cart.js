@@ -3,6 +3,7 @@ import './Cart.css'
 
 //cart compomenet
 const Cart = (props) => {
+    console.log(props.item)
     const {name} =props.item; 
     return (
         <div className='cart'>      
