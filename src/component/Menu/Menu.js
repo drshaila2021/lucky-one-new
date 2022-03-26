@@ -18,7 +18,6 @@ const Menu = () => {
 
  //add to cart
  const handleFoodClick=( food)=>{
- console.log('clicked', food.id)
  const addedFood=[...cart,food];
  setCart(addedFood)
  }
