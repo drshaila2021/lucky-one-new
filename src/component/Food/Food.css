@@ -1,0 +1,14 @@
+.food{
+    border: 2px solid grey;
+}
+.food button{
+    background-color: rgb(247, 192, 174);
+    width: 100%;
+    border:none;
+    height: 30px;
+
+}
+.food img{
+    width: 276px;
+    height: 276px;
+}

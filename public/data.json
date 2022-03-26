@@ -1,0 +1,56 @@
+[
+    {
+      "id": "623de54f73697e5505c8bc66",
+      "picture": "./images/food-1.jpg",
+      "price": 23,
+      "name": "Chivito Uruguayo"
+    },
+    {
+      "id": "623de54f31c1e35004d12c84",
+      "picture": "./images/food-2.jpg",
+      "price": 18,
+      "name": " Walnut Roll"
+    },
+    {
+      "id": "623de54f63c1f5203982b57e",
+      "picture": "./images/food-3.jpg",
+      "price": 18,
+      "name": "Mushroom Soup"
+    },
+    {
+      "id": "623de54fb7c1f70db7556bd2",
+      "picture": "./images/food-4.jpg",
+      "price": 19,
+      "name": "Fish Sardines"
+    },
+    {
+      "id": "623de54fd97a8d19d9dd0e3f",
+      "picture": "./images/food-5.jpg",
+      "price": 14,
+      "name": "Burek"
+    },
+    {
+      "id": "623de54f3964e72c067c1e26",
+      "picture": "./images/food-6.jpg",
+      "price": 15,
+      "name": "Bean Stew"
+    },
+    {
+      "id": "623de54f45625d34dc20f278",
+      "picture": "./images/food-7.jpg",
+      "price": 14,
+      "name": "Lamb Peka"
+    },
+    {
+      "id": "623de54f45625d34dc0008",
+      "picture": "./images/food-8.jpg",
+      "price": 22,
+      "name": "Steak and Kidney Pie"
+    },
+    {
+      "id": "623de54f45625d399999",
+      "picture": "./images/food-9.jpg",
+      "price": 14,
+      "name": "Thai Curry"
+    }
+  ]
